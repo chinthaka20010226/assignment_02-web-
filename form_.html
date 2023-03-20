@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="./form_.css">
+    </head>
+    <body>
+        <h2>User Registration Form</h2>
+        <form name="form">
+            <table>
+                <tr>
+                    <td>Username</td>
+                    <td><input type="text" name="username"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="text" name="password"></td>
+                </tr>
+                <tr>
+                    <td>Confirm Password</td>
+                    <td><input type="text" name="confirmpassword"></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><textarea name="address" cols="35" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text" name="email"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input type="radio" value="male" name="male">Male</td>
+                    <td><input type="radio" value="female" name="female">Female</td>
+                </tr>
+                <tr>
+                    <td>Country</td>
+                    <td>
+                        <select name="country">
+                            <option value="Default">---Select---</option>
+                            <option value="Sri Lanka">Sri Lanka</option>
+                            <option value="America">America</option>
+                            <option value="Canada">Canada</option>
+                            <option value="Germany">Germany</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Submit" name="submit"></td>
+                    <td><input type="submit" value="Reset" name="reset"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

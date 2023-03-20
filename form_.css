@@ -1,0 +1,33 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* body */
+body {
+    width: 70%;
+    height: 93vh;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;
+    */align-items: center;
+    margin: 20px auto;
+    /* overflow: hidden; */
+    border: 2px solid rgb(229, 226, 226);
+}
+body h2{
+    margin: 30px;
+    font-size: 30px;
+    font-weight: 600;
+}
+body form{
+    margin: 10px;
+    /* background-color: lightgray; */
+}
+body form table tr td{
+    /* background-color: red; */
+    padding: 5px ;
+}
